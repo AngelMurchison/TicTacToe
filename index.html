@@ -1,0 +1,45 @@
+﻿<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="style.css?ver=1.2" media="screen" title="no title" charset="utf-8">
+    <script src="functions.js"></script>
+</head>
+<body>
+    <main>
+        <div id="titlecard">
+            <marquee><h1 id="title">TIC-TAC-TOOOOE</h1></marquee>
+            <h3 id="subtitle">Make a move, Player X!</h3>
+        </div>
+        <div id="board">
+            <table>
+                <tr id="row1">
+                    <td class="square unclicked row1 col1 diag1"></td>
+                    <td class="square unclicked v row1 col2"></td>
+                    <td class="square unclicked row1 diag2"></td>
+                </tr>
+                <tr id="row2">
+                    <td class="square unclicked h row2 col1"></td>
+                    <td class="square unclicked v h row2 col2 diag1 diag2"></td>
+                    <td class="square unclicked h row2 col3"></td>
+                </tr>
+                <tr id="row3">
+                    <td class="square unclicked row3 col1 diag2"></td>
+                    <td class="square unclicked v row3 col2 "></td>
+                    <td class="square unclicked row3 col3 diag1"></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <div id="modal">
+        <div id="overlay">
+            <div id="dialog">
+                <h3>Player X wins!</h3>
+                <p>Play again?</p>
+                <button id="replay">OK</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
